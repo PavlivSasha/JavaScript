@@ -182,12 +182,10 @@ let citiesWithId = [{
         city: 'Miami'
     }
 ];
-
-
 // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
 // Записати цей об'єкт в новий масив
+
 let newArray = [];
-console.log('=====================');
 for(let arr of usersWithId){
     for(let arr2 of citiesWithId){
         if(arr.id===arr2.user_id){
